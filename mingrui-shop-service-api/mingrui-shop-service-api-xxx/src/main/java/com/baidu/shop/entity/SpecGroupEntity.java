@@ -5,7 +5,14 @@ import lombok.Data;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table(name="tb_spec_group")
+/**
+ * @ClassName SpecGroupEntity
+ * @Description: TODO
+ * @Author shenyaqi
+ * @Date 2021/1/4
+ * @Version V1.0
+ **/
+@Table(name = "tb_spec_group")
 @Data
 public class SpecGroupEntity {
 
