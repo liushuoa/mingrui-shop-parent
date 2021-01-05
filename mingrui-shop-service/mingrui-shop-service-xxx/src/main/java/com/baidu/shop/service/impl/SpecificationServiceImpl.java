@@ -91,8 +91,4 @@ public class SpecificationServiceImpl extends BaseApiService implements Specific
         specGroupMapper.deleteByPrimaryKey(id);
         return this.setResultSuccess() ;
     }
-
-
-
-
 }
