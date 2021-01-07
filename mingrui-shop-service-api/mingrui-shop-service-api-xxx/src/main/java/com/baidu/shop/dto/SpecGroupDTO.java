@@ -8,13 +8,6 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @ClassName SpecGroupDTO
- * @Description: TODO
- * @Author shenyaqi
- * @Date 2021/1/4
- * @Version V1.0
- **/
 @ApiModel(value = "规格组数据传输DTO")
 @Data
 public class SpecGroupDTO extends BaseDTO{
